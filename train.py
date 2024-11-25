@@ -18,7 +18,7 @@ def train_model():
     criterion = nn.CrossEntropyLoss()
     optimizer = optim.Adam(model.parameters(), lr=0.01)
 
-    for epoch in range(100):
+    for epoch in range(500):
         # Réinitialiser les gradients de l'optimiseur
         optimizer.zero_grad()
 
